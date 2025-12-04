@@ -173,7 +173,7 @@ const instructions = {
             <h1>What to Expect</h1>
             <div style="font-size: 18px; line-height: 2; max-width: 700px; margin: 20px auto; text-align: left;">
                 <ul>
-                    <li>You will rate <strong>102 statements</strong></li>
+                    <li>You will rate <strong>108 statements</strong></li>
                     <li>Each statement appears one at a time</li>
                     <li>Read each statement carefully</li>
                     <li>Select the number that best represents your judgment</li>
