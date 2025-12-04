@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Logic Experiment</title>
+    
+    <!-- jsPsych core -->
+    <script src="https://unpkg.com/jspsych@7.3.1"></script>
+    <link href="https://unpkg.com/jspsych@7.3.1/css/jspsych.css" rel="stylesheet" type="text/css" />
+    
+    <!-- jsPsych plugins -->
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-text@1.1.2"></script>
+    
+    <!-- DataPipe plugin for saving data -->
+    <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe@0.3.0"></script>
+    
+    <!-- PapaParse for CSV parsing -->
+    <script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
+    
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .consent-text {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 30px;
+            line-height: 1.6;
+        }
+        
+        .consent-text h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .word-highlight {
+            font-weight: bold;
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+</body>
+
+<!-- Load your experiment code -->
+<script src="experiment.js"></script>
+</html>

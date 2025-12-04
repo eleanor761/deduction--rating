@@ -1,0 +1,165 @@
+/* Main content container */
+.jspsych-content {
+    max-width: 900px;
+}
+
+/* Statement display */
+.statement-text {
+    font-size: 24px;
+    line-height: 1.8;
+    margin: 50px 0;
+    padding: 35px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border-left: 5px solid #007bff;
+    font-weight: 500;
+}
+
+/* Rating scale */
+.rating-scale {
+    margin: 50px 0;
+}
+
+.scale-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.scale-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 35px;
+    line-height: 2.2;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.scale-option {
+    display: block;
+    margin: 8px 0;
+}
+
+/* Trial counter */
+.trial-counter {
+    color: #6c757d;
+    font-size: 17px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+/* Button container - force single line layout */
+.jspsych-btn-group {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+    gap: 0 !important;
+    width: 100% !important;
+}
+
+/* Individual button wrapper */
+.rating-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    flex-shrink: 0;
+}
+
+/* Special wrapper for the "0" button - adds separation */
+.rating-btn-wrapper-zero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 2px solid #dee2e6;
+}
+
+/* Button labels above buttons */
+.btn-label {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Rating trial buttons only */
+.rating-btn-wrapper .jspsych-btn,
+.rating-btn-wrapper-zero .jspsych-btn {
+    font-size: 18px !important;
+    padding: 12px 20px !important;
+    margin: 0 !important;
+    min-width: 50px !important;
+    width: 50px !important;
+    transition: all 0.2s ease;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+.rating-btn-wrapper .jspsych-btn:hover,
+.rating-btn-wrapper-zero .jspsych-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Instructions */
+.instructions-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.instructions-content h1 {
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.instructions-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.instructions-content ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.scale-examples {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px auto;
+    max-width: 650px;
+}
+
+/* Consent form */
+.consent-text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.consent-text h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.consent-text p {
+    margin-bottom: 12px;
+}
